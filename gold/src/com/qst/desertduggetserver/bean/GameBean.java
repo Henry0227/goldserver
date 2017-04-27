@@ -3,7 +3,7 @@ package com.qst.desertduggetserver.bean;
 public class GameBean {
 	private String name; // 游戏名
 	private String pwd; // 游戏房间密码
-	private int create_id; // 创建人id
+	private int create_name; // 创建人昵称
 
 	public GameBean() {
 	}
@@ -24,11 +24,11 @@ public class GameBean {
 		this.pwd = pwd;
 	}
 
-	public int getCreate_id() {
-		return create_id;
+	public int getCreate_name() {
+		return create_name;
 	}
 
-	public void setCreate_id(int create_id) {
-		this.create_id = create_id;
+	public void setCreate_name(int create_name) {
+		this.create_name = create_name;
 	}
 }
