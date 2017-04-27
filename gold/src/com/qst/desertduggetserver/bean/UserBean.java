@@ -1,7 +1,7 @@
 package com.qst.desertduggetserver.bean;
 
 public class UserBean {
-	private String nickname;    //昵称
+	private String nickname;    //昵称昵称
 	private String tel;			//电话
 	private String pwd;			//密码
 	private int g_id;			//加入的游戏id
